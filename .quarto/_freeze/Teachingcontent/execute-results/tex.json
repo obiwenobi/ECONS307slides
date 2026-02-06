@@ -1,0 +1,15 @@
+{
+  "hash": "0a877d5a6bc59f48f7de396d0fd2e7a8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Diamond sizes\"\ndate: 2022-09-12\nformat: \n  pdf:\n    documentclass: article\neditor_options: \n  chunk_output_type: console\nexecute: \n  cache: true\n---\n\n\n\nWe have data about 53940 diamonds. Only\n126 are larger than 2.5 carats. The\ndistribution of the remainder is shown below:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsmaller |> \n  ggplot(aes(x = carat)) + \n  geom_freqpoly(binwidth = 0.001)\n```\n\n::: {.cell-output-display}\n![](Teachingcontent_files/figure-pdf/plot-smaller-diamonds-1.pdf){fig-pos='H'}\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}
