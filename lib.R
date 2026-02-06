@@ -1,7 +1,0 @@
-library("tidyverse")
-library("knitr")
-library(kableExtra)
-library(quarto)
-library("tidymodels")
-library(plotly)
-library(marginaleffects)
