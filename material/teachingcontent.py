@@ -11,8 +11,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-path = "C:/Users/user/Documents/Productions Personnelles/Scraping/chromedriver-win64/chromedriver.exe"
-chrome_binary_path = "C:/Users/user/Downloads/chrome-win64/chrome.exe"
+path = "/chromedriver-win64/chromedriver.exe"  # CHANGE THIS LINE : ADD THE PROPER PATH TO CHROMEDRIVE.EXE
+chrome_binary_path = "chrome-win64/chrome.exe" # CHANGE THIS LINE : ADD THE PROPER PATH TO CHROME.EXE
 service = Service(executable_path=path)
 
 # Set up ChromeOptions
